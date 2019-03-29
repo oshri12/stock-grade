@@ -131,11 +131,32 @@ a {
 
                      <asp:Label ID="Label1" runat="server" Text="שם משתמש או ססמא שגויים" Visible="False"></asp:Label>
 
+                     <br />
+
           </td>
       </tr>
-           
-
+      
+     
           </table>
+        <table align="center">
+         <tr align="center">
+            <td >
+
+                     <asp:Label ID="Label2" runat="server" Text="?משתמש חדש"></asp:Label>
+
+          </td>
+          
+       <td >  </td>
+          
+            <td >
+
+                    <a href="https://www.w3schools.com/html/" style="color:black">שכחתי סיסמה</a> 
+
+
+          </td>
+          </tr>
+            </table>
+       
     </form>
         </div>
 </body>
