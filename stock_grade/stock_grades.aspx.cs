@@ -12,7 +12,7 @@ namespace stock_grade
     public partial class stock_grades : System.Web.UI.Page
     {
         private DataTable dataTableStudent = new DataTable();
-        private DataTable dataTableLecturer = new DataTable();//
+        private DataTable dataTableLecturer = new DataTable();
         protected void Page_Load(object sender, EventArgs e)
         {
 
