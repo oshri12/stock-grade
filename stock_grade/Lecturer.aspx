@@ -75,12 +75,16 @@
         הוספת תלמיד חדש</h2>
      <table align="center" style="font-size:20px; margin-top: 0px;" border="1" >
            <tr>
+               <td style="font-size:20px; background-color:#434349; text-align:center;"> &nbsp;&nbsp;&nbsp; <span id="Labelmail">אימייל</span></td>
                <td style="font-size:20px; background-color:#434349; text-align:center;"> &nbsp;&nbsp;&nbsp; <span id="Labelpas">ססמא</span></td>
                <td style="font-size:20px; background-color:#434349; text-align:center;"> &nbsp;&nbsp;&nbsp; <span id="Labeln"> ת.ז</span></td>
                <td style="font-size:20px;text-align:center; background-color:#434349;" class="auto-style3"> <span id="Labeli">שם תלמיד</span></td>
                
            </tr>
               <tr>
+                  <td style="font-size:20px; background-color:#ffffcc;" class="auto-style4"> 
+                   <asp:TextBox id="TextBoxmail" runat="server"></asp:TextBox>
+                  </td>
                <td style="font-size:20px; background-color:#ffffcc;" class="auto-style4"> 
                    <asp:TextBox id="TextBoxpas" runat="server"></asp:TextBox>
                   </td>

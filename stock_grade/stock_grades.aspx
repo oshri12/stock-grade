@@ -9,7 +9,7 @@
 body {
   background-image: url('images/MY BOOK.jpg');
   background-repeat: no-repeat;
-            background-position:center;
+            /*background-position:center;*/
             background-size:  cover;
             /*background-attachment:scroll;
            width:1300px;
@@ -142,15 +142,21 @@ a {
          <tr align="center">
             <td >
 
-                     <asp:Label ID="Label2" runat="server" Text="?משתמש חדש"></asp:Label>
+                  
+                <a href="registration.aspx" style="color:black">?משתמש חדש</a> 
+          </td>
+          
+       
+             <td >
+
+                   <p>|</p>
+
 
           </td>
           
-       <td >  </td>
-          
             <td >
 
-                    <a href="https://www.w3schools.com/html/" style="color:black">שכחתי סיסמה</a> 
+                    <a href="password recovery.aspx" style="color:black">שכחתי סיסמה</a> 
 
 
           </td>

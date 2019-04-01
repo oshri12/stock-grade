@@ -118,7 +118,7 @@ namespace stock_grade
 
         protected void ButtonOk_Click1(object sender, EventArgs e)
         {
-            string querys = "INSERT INTO student (id_student,name_student,password)VALUES (" + TextBoxId.Text + ",N'" + TextBoxname.Text + "','" + TextBoxpas.Text +"');";
+            string querys = "INSERT INTO student (id_student,name_student,password,email)VALUES (" + TextBoxId.Text + ",N'" + TextBoxname.Text + "','" + TextBoxpas.Text +"','"+ TextBoxmail.Text+"');";
 
             string connString = @" Data Source=(LocalDB)\v11.0;AttachDbFilename='C:\Users\oshri\Documents\Stock scores.mdf';Integrated Security=True;Connect Timeout=30";
             SqlConnection conn = new SqlConnection(connString);

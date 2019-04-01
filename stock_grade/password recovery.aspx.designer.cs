@@ -10,7 +10,7 @@
 namespace stock_grade {
     
     
-    public partial class stock_grades {
+    public partial class password_recovery {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,13 @@ namespace stock_grade {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// TextBoxID control.
+        /// TextBoxmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxID;
-        
-        /// <summary>
-        /// TextBoxPas control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxPas;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxmail;
         
         /// <summary>
         /// Button1 control.
@@ -49,12 +40,12 @@ namespace stock_grade {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Label1 control.
+        /// Labeleror control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label Labeleror;
     }
 }
